@@ -216,6 +216,11 @@ int main()
     printf("\n- 허프만 압축 결과 -\n");
     HuffmanTree(copyData, count);
 
+    int strcount = 0;
+    strcount = strlen(str) * 4;
+    printf("\n");
+    printf("- 압축전 문자열의 크기는 %d byte- \n\n", strcount);
+
     free(str);
     free(copyData);
 
