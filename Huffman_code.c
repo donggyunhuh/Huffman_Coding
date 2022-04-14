@@ -217,7 +217,7 @@ int main()
     HuffmanTree(copyData, count);
 
     int strcount = 0;
-    strcount = strlen(str) * 4;
+    strcount = strlen(str);
     printf("\n");
     printf("- 압축전 문자열의 크기는 %d byte- \n\n", strcount);
 
